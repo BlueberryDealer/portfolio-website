@@ -37,5 +37,5 @@ Personal portfolio built with Next.js, Tailwind CSS, and Framer Motion — featu
 ## 📫 Let's Connect
 
 [![Portfolio](https://img.shields.io/badge/-Portfolio-6366f1?style=flat-square&logo=vercel&logoColor=white)](https://portfolio-website-six-gamma-60.vercel.app/)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR-LINKEDIN)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mowli02/)
 [![Email](https://img.shields.io/badge/-Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:Mowlianandan@gmail.com)

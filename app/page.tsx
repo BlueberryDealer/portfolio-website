@@ -52,7 +52,7 @@ const PROJECTS = [
     title: "MRT Route Finder",
     description: "Singapore MRT route planner using Dijkstra's algorithm — fastest time, fewest stops, or fewest transfers.",
     tags: ["Python", "Dijkstra", "Tkinter"],
-    link: "https://github.com/chloelxy/P4-3",
+    link: "https://github.com/BlueberryDealer/MRT-Route-Finder",
     gradient: "linear-gradient(135deg, #8b5cf6, #ec4899)",
   },
 ];

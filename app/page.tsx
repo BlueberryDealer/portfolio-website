@@ -383,7 +383,7 @@ function GitHubHeatmap() {
         setTotal(w.reduce((s: number, wk: any) => s + wk.contributionDays.reduce((d: number, day: any) => d + day.contributionCount, 0), 0));
         setWeeks(w.slice(-26));
       })
-      .catch(() => {});
+      .catch((err) => console.error("Heatmap fetch failed:", err));
   }, []);
 
   const color = (n: number) => n === 0 ? "transparent" : n < 3 ? "#22c55e30" : n < 6 ? "#22c55e60" : n < 10 ? "#22c55e90" : "#22c55e";

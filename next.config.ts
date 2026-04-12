@@ -1,7 +1,13 @@
 import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
-  /* config options here */
+const nextConfig = {
+  images: {
+    remotePatterns: [
+      { hostname: "img.icons8.com" },
+      { hostname: "www.vectorlogo.zone" },
+      { hostname: "cdn.jsdelivr.net" },
+    ],
+  },
 };
 
 export default nextConfig;

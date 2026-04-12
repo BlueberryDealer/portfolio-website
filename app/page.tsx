@@ -80,19 +80,25 @@ const SKILL_LOGOS: Record<string, string> = {
 const TIMELINE = [
   {
     year: "2025 – Present",
-    title: "Applied Computing (Fintech)",
+    title: "Bachelor's in Applied Computing (Fintech)",
     org: "Singapore Institute of Technology",
-    description: "Building expertise in full-stack development, algorithms, and fintech applications. Key modules include Web Systems & Technologies, Object-Oriented Programming, Data Structures & Algorithms, and Data Engineering & Visualisation. Developed real-world projects including e-commerce platforms, game engines, and route optimisation systems.",
+    description: "CGPA: 4.5 / 5.0 (Year 1, Trimester 1). Coursework in OOP, DSA, Web Systems, Data Engineering & Visualisation, and Software Development Practices.",
+  },
+  {
+    year: "Mar 2022 – Aug 2022",
+    title: "Student Intern",
+    org: "Sick Pte Ltd, Singapore",
+    description: "Analysed operational metrics to identify reliability issues. Built data processing and monitoring workflows. Designed automation pipelines and supported application deployment and issue resolution.",
   },
 ];
 
 const CERTS = [
-  { title: "Fundamentals of Deep Learning", org: "NVIDIA", year: "2026" },
-  { title: "The Bits and Bytes of Computer Networking", org: "Coursera", year: "2025" },
-  { title: "Blockchain Technology and Web3 Projects", org: "Hooked", year: "2025" },
-  { title: "C for Everyone: Programming Fundamentals", org: "Coursera", year: "2025" },
-  { title: "Blockchain Basics", org: "Coursera", year: "2024" },
-  { title: "Internet of Things", org: "Singapore Polytechnic", year: "2023" },
+  { title: "Fundamentals of Deep Learning", org: "NVIDIA", year: "2026", logo: "/nvidia.png" },
+  { title: "Blockchain Technology and Web3 Projects", org: "Hooked", year: "2025", logo: "/hooked.png" },
+  { title: "The Bits and Bytes of Computer Networking", org: "Coursera", year: "2025", logo: "/coursera.png" },
+  { title: "C for Everyone: Programming Fundamentals", org: "Coursera", year: "2025", logo: "/coursera.png" },
+  { title: "Blockchain Basics", org: "Coursera", year: "2024", logo: "/coursera.png" },
+  { title: "Internet of Things", org: "Singapore Polytechnic", year: "2023", logo: "/singapore_poly.png" },
 ];
 
 const BLOG_POSTS = [
@@ -769,8 +775,8 @@ function Certifications() {
         {CERTS.map((c, i) => (
           <motion.div key={i} initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ delay: i * 0.1 }}
             style={{ display: "flex", alignItems: "center", gap: "1.5rem", padding: "1.5rem 2rem", background: C.bgCard, border: `1px solid ${C.border}`, borderRadius: 16 }}>
-            <div style={{ width: 44, height: 44, borderRadius: 12, background: "rgba(99,102,241,0.08)", border: "1px solid rgba(99,102,241,0.15)", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#818cf8" strokeWidth="1.5"><path d="M12 15l-3 3 1-4-3-3h4L12 7l1 4h4l-3 3 1 4-3-3z" /></svg>
+            <div style={{ width: 44, height: 44, borderRadius: 12, background: "rgba(99,102,241,0.08)", border: "1px solid rgba(99,102,241,0.15)", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0, overflow: "hidden" }}>
+              <img src={c.logo} alt={c.org} style={{ width: 28, height: 28, objectFit: "contain" }} />
             </div>
             <div style={{ flex: 1 }}>
               <h3 style={{ fontFamily: "var(--font-heading)", fontSize: 15, fontWeight: 600, color: C.text }}>{c.title}</h3>

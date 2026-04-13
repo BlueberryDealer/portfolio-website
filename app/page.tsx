@@ -35,21 +35,21 @@ const NAV_LINKS = ["About", "Projects", "Skills", "Blog", "Contact"];
 
 const PROJECTS = [
   {
-    title: "QUENCH",
+    title: "QUENCH e-Commerce Platform (Websystem Project)",
     description: "Full-stack drinks e-commerce platform with dark/light theming, AI chatbot, Google Maps store locator, and coupon system.",
     tags: ["PHP", "MySQL", "Bootstrap", "JavaScript"],
     link: "https://github.com/BlueberryDealer/INF1005-Project",
     gradient: "linear-gradient(135deg, #6366f1, #8b5cf6)",
   },
   {
-    title: "Abstract Engine",
+    title: "Abstract Engine (OOP Project)",
     description: "2D game engine built with LibGDX using Factory, Strategy, and Observer design patterns with scene management and entity systems.",
     tags: ["Java", "LibGDX", "OOP"],
     link: "https://github.com/DerrickHoZX/OOP-Project",
     gradient: "linear-gradient(135deg, #06b6d4, #6366f1)",
   },
   {
-    title: "MRT Route Finder",
+    title: "MRT Route Finder (Data Structures Assignment)",
     description: "Singapore MRT route planner using Dijkstra's algorithm — fastest time, fewest stops, or fewest transfers.",
     tags: ["Python", "Dijkstra", "Tkinter"],
     link: "https://github.com/BlueberryDealer/MRT-Route-Finder",

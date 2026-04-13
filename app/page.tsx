@@ -684,7 +684,7 @@ function About() {
           <div style={{ display: "flex", flexDirection: "column", gap: "1.75rem", color: C.textMuted, fontSize: 15, lineHeight: 2 }}>
             <p>I&apos;m a FinTech student at the <span style={{ color: C.text, fontWeight: 600 }}>Singapore Institute of Technology</span> who enjoys building practical software and solving challenging problems. I&apos;m particularly interested in developing <span style={{ color: C.text, fontWeight: 600 }}>scalable applications</span> and improving systems through clean code and thoughtful design.</p>
             <p>I like working across the full development stack — from designing <span style={{ color: C.text, fontWeight: 600 }}>intuitive user interfaces</span> to implementing <span style={{ color: C.text, fontWeight: 600 }}>reliable backend logic</span> and algorithms. I&apos;m constantly exploring new technologies and strengthening my programming and data structures skills.</p>
-            <p>Outside of coding, I enjoy playing competitive games like <span style={{ color: C.text, fontWeight: 600 }}>Counter-Strike</span> and <span style={{ color: C.text, fontWeight: 600 }}>Valorant</span>. These games sharpen my strategic thinking, quick decision-making, and teamwork — skills that I also bring into my development projects.</p>
+            <p>Outside of coding, I enjoy playing competitive games like <span style={{ color: C.text, fontWeight: 600 }}>Counter-Strike</span> and <span style={{ color: C.text, fontWeight: 600 }}>Valorant</span>.</p>
           </div>
         </div>
         <div style={{ display: "grid", gridTemplateRows: "200px 1fr", gap: "1.25rem" }}>

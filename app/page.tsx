@@ -575,7 +575,7 @@ function Hero() {
 
             <div style={{ fontFamily: "var(--font-heading)", letterSpacing: "-0.04em", lineHeight: 0.9, marginBottom: "0.5rem" }}>
               <motion.span initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.4 }}
-                style={{ display: "block", fontSize: "clamp(28px, 3.5vw, 40px)", fontWeight: 600, color: C.textMuted, marginBottom: "0.5rem" }}>HI, I&apos;M</motion.span>
+                style={{ display: "block", fontSize: "clamp(28px, 3.5vw, 40px)", fontWeight: 600, color: C.textMuted, marginBottom: "0.5rem" }}>I&apos;M</motion.span>
               <div style={{ display: "flex", gap: 4 }}>
                 {nameLetters.map((letter, i) => (
                   <motion.span key={i} initial={{ opacity: 0, y: 80, rotateX: -90 }} animate={{ opacity: 1, y: 0, rotateX: 0 }}
